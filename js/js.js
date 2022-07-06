@@ -13,7 +13,7 @@ toggle.addEventListener('click',function() {
 
 const sr = ScrollReveal({
     distance: '30px',
-    duration: 1800,
+    duration: 2000,
     reset: true,
 });
 
@@ -22,15 +22,13 @@ sr.reveal(`.slider__text, .slider__img,
            .new__item,
            .footer__item`, {
     origin: 'top',
-    interval: 100,
+    interval: 200,
 })
 
 sr.reveal(`.share__img, .send__text`, {
     origin: 'left',
-    interval: 100,
 })
 
 sr.reveal(`.share__text, .send__direction`, {
     origin: 'right',
-    interval: 100,
 })
