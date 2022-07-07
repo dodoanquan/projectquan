@@ -9,26 +9,3 @@ toggle.addEventListener('click',function() {
 		showHide.classList.add("hide-menu")
 	}
 })
-
-
-const sr = ScrollReveal({
-    distance: '30px',
-    duration: 2000,
-    reset: true,
-});
-
-sr.reveal(`.slider__text, .slider__img,
-           .item,
-           .new__item,
-           .footer__item`, {
-    origin: 'top',
-    interval: 200,
-})
-
-sr.reveal(`.share__img, .send__text`, {
-    origin: 'left',
-})
-
-sr.reveal(`.share__text, .send__direction`, {
-    origin: 'right',
-})
